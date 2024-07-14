@@ -149,6 +149,15 @@ const StyledXsOs = styled.div`
   height: 100%;
   font-family: 'Kalam', cursive;
 
+  /* Disable the blue clicking effect */
+  button:focus,
+  button:active,
+  a:focus,
+  a:active,
+  div {
+    -webkit-tap-highlight-color: transparent;
+  }
+
   h1 {
     width: max-content;
     margin: 30px auto 50px;
